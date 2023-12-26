@@ -1,0 +1,104 @@
+@import url(webfonts/fa-regular-400.woff2);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'regular', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, hsl(186, 97%, 14%), hsl(170,100%, 40%));
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+/*SECTION-HEADER*/
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-header .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    line-height: 1.2;
+}
+/*testimonials*/
+.testimonials{
+    padding: 100px 0;
+}
+.testimonials-item{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+.one{
+    max-width: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.two{
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.three{
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.four{
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.five{
+    max-width: 100px;
+    border-radius: 70%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.testimonials-item .info{
+    display: flex;
+    align-items: center;
+}
+.testimonials .name{
+    font-size: 24px;
+    margin-bottom: 2px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2;
+}
+.testimonials .job{
+    text-transform: capitalize;
+    color: rgb(85, 82, 82);
+}
+.testimonials-item p{
+    margin-top: 20px;
+    color: rgb(85, 82, 82);
+}
+.testimonials-item .rating{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(247, 185, 71);
+
+}
+.testimonials .swiper-pagination{
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
+.testimonials .swiper-pagination-bullet{
+    height:12px;
+    width: 12px;
+    background-color: white;
+}
